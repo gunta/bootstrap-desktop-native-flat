@@ -1,0 +1,111 @@
+/**
+    Hand pointer
+*/
+.pointer,
+.movement-area-image {
+  cursor: pointer;
+}
+
+/**
+    Default cursor
+*/
+.cursor {
+  cursor: default;
+}
+
+/**
+    Text unselectable
+*/
+.unselectable,
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/**
+    Text selectable
+*/
+.selectable {
+  -webkit-touch-callout: default;
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: text;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+/* Normal pointer */
+.btn,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.radio label,
+.checkbox label,
+.radio-inline,
+.checkbox-inline
+{
+  cursor: default;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  /*color: #333333;*/
+  /*background-color: #ebebeb;*/
+  /*border-color: #adadad;*/
+}
+
+.btn-default:hover,
+.open .dropdown-toggle.btn-default {
+
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-default:focus {
+  /*outline: none;*/
+}
+
+.btn-default:active,
+.btn-default.active {
+  color: #ffffff;
+  background-color: #157dfb;
+  border-color: #0470f2;
+  /*color: #333333;*/
+  /*background-color: #ebebeb;*/
+  /*border-color: #adadad;*/
+}
+
+/* Add blue border to text fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+textarea.form-control:focus {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.227451) 0px 1px 0px 0px inset,
+  rgb(111, 181, 241) 0px 0px 0px 2px;
+  box-shadow: rgba(0, 0, 0, 0.227451) 0px 1px 0px 0px inset,
+  rgb(111, 181, 241) 0px 0px 0px 2px;
+  /*#83b4f0*/
+
+}
+
+/* Remove animation from input controls */
+.form-control {
+  -webkit-transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+  transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+}
+
+/* Make border radius smaller */
+.form-control {
+  /*border-radius: 3px;*/
+}
