@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-desktop-native-flat",
+  "version": "0.1.0",
+  "description": "A bootstrap 3 theme ready for a desktop-like native behaviour",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gunta/bootstrap-desktop-native-flat.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "native",
+    "desktop",
+    "flat",
+    "ui",
+    "html5",
+    "css",
+    "ui",
+    "mac"
+  ],
+  "author": "Gunther Brunner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunta/bootstrap-desktop-native-flat/issues"
+  },
+  "homepage": "https://github.com/gunta/bootstrap-desktop-native-flat"
+}
