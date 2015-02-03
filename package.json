@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-desktop-native-flat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A bootstrap 3 theme ready for a desktop-like native behaviour",
   "main": "index.js",
   "private": false,
